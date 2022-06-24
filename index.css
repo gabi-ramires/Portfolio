@@ -1,13 +1,20 @@
+
+
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 600px) {
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@300&display=swap');
 
 * {
 
-    box-sizing: border-box
+    box-sizing: border-box;
+    margin:0;
 }
-
 .containerTotal {
+    flex-wrap: wrap;
+    background: linear-gradient( #212b46,#2a225a,#212b46);
     height: 100vh;
-    background: linear-gradient( #212b46,#2a225a);
 }
 
 h1{
@@ -24,7 +31,8 @@ h1{
     width: 100%;
     bottom: 0;
     font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 2;
 }
 
 body {
@@ -54,7 +62,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 20px;
-
+    background: black;
 }
 
 .menu li a:hover {
@@ -66,7 +74,6 @@ body {
     margin-left:5%;
     margin-top:2%;
     display:inline-flex;
-   
     width: 25%;
     height: 70%;
 }
@@ -89,9 +96,122 @@ body {
 }
 
 .apresentacao{
-    display:flex;   
+    display:flex;  
+    
 }
 
 #text {
     font-size: 1.7vw;
   }
+
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@300&display=swap');
+    
+    * {
+    
+        box-sizing: border-box;
+        margin:0;
+    }
+    .containerTotal {
+        flex-wrap: wrap;
+        background: linear-gradient( #212b46,#2a225a,#212b46);
+        height: 100vh;
+        
+        
+    }
+    
+    h1{
+        color:white;
+        opacity: 0.6;
+        
+    }
+    
+    .footer {
+        text-align: center;
+        background: gray;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        z-index: 2;
+    }
+    
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(207, 207, 207);
+        background-color: white;
+        
+       
+    }
+    
+    .menu {
+        justify-content: center;
+        
+    }
+    
+    .menu ul {
+        background: black;
+        padding: 20px;
+        text-align: right;
+    }
+    
+    .menu li {
+        display: inline-block;
+    
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        background: black;
+    }
+    
+    .menu li a:hover {
+        background: gray;
+    }
+    
+    
+    .perfil{
+        margin-top:2%;
+        display:flex;
+       justify-content: center;
+    }
+    
+    .perfil img{
+     width: 60%;
+     height: 80%;
+     display: flex;
+     justify-items: center;
+    }
+    
+    .minhaDescricao{
+        
+        display:inline-flex;
+        color:white;
+        font-size: larger;
+        text-align: center;
+        width: 80%;
+        flex-direction: column;
+        margin-top:5%;
+    }
+    
+    .apresentacao{
+        display:flex;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    #text {
+        font-size: 5vw;
+      }
+    
+    }

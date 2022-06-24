@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@300&display=swap');
+* {
+
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 0;
+  
+}
+
+.body{
+  
+    flex-direction: row;
+    display: flex;
+    margin-top:0;
+    width: 100%;
+}
+
+h2{
+    color:white;
+    font-weight: 200;
+    margin-top: 1%;
+}
+
+.minhaFoto{
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.imagem{
+  justify-content: end;
+  display:flex;
+  padding: 5px;
+  border: 1px ;
+  align-items: center;
+  align-content: center;
+ 
+}
+
+h1{
+    color:white;
+    opacity: 0.6;
+    font-weight: 100;
+    margin-top:0;
+    display: block;
+}
+
+.formacao{
+    
+    width: 90%;
+    justify-content: start;
+    justify-items: start;
+    display: flex;
+    text-align: center;
+    background: rgb(196, 194, 194);
+    border-radius: 10px;
+    margin:10px;
+    box-shadow: 1px 1px 1px 1px rgb(163, 163, 163);
+}
+
+.caixote{
+  
+    width: 100%;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.descricao{
+    width: 100%;
+    color:black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.inst{
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.curso{
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    
+}
+
+
+.ano{
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    margin-top: 3%;
+    font-style: italic;
+    
+}
+
+.qualquer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    
+}

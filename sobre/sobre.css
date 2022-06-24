@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@300&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    
+}
+
+.containerTotal {
+    display: flex;
+   
+    background: linear-gradient( #212b46,#2a225a,#212b46,#2a225a);
+    
+    
+}
+
+h1{
+    color:white;
+    opacity: 0.6;
+    font-weight: 100;
+    margin-top: 1%;
+    border: 1px solid green;
+    display: block;
+}
+
+.titulo{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.footer {
+    text-align: center;
+    background: gray;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 2;
+}
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(207, 207, 207);
+    background-color: white;
+  
+   
+    
+}
+
+.menu {
+    justify-content: center;
+
+}
+
+.menu ul {
+    background: black;
+    padding: 20px;
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background: black;
+}
+
+.menu li a:hover {
+    background: gray;
+}
+
+
+.subMenu{
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    height:1fr;
+    background: rgb(31, 30, 30);
+}
+
+.subMenu li{
+    background: rgb(31, 30, 30);
+    padding: 5px;
+    border-top: 1px solid black;
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+.subMenu li a{
+    margin:30px;
+    text-decoration: none;
+    color: white;
+}
+
+.subMenu li a:hover{
+    border-bottom: 2px solid rgb(92, 6, 104);
+}
+
+.caixote{
+   
+   display: flex;
+   width: 100%;
+   text-align: center;
+   align-items: center;
+   
+}
+
