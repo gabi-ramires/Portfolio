@@ -86,7 +86,7 @@
     
     .bordaImagem:hover{
         cursor:pointer;
-        transform: translateX(10px) scale(1);
+        
         filter:brightness(1.3)
     }
     
@@ -224,7 +224,7 @@ body {
 
 .bordaImagem:hover{
     cursor:pointer;
-    transform: translateX(10px) scale(1);
+    
     filter:brightness(1.3)
 }
 
@@ -240,6 +240,7 @@ body {
     margin-top:8%;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 30px;
     padding-bottom: 4%;
 }
 
