@@ -3,14 +3,14 @@
 * {
 
     box-sizing: border-box;
-    
+   
 }
 
 .containerTotal {
     display: flex;
-   
+    height: 100vh;
     background: linear-gradient( #212b46,#2a225a,#212b46,#2a225a);
-    
+   
     
 }
 
@@ -55,13 +55,17 @@ body {
 
 .menu {
     justify-content: center;
-
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .menu ul {
     background: black;
     padding: 20px;
     text-align: right;
+    z-index: 2;
 }
 
 .menu li {
@@ -85,7 +89,6 @@ body {
     display: inline-flex;
     justify-content: start;
     align-items: center;
-    height:1fr;
     background: rgb(31, 30, 30);
 }
 

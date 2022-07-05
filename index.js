@@ -8,7 +8,7 @@ function frameLooper () {
   } else {
     clearTimeout(timer);
       }
-  loopTimer = setTimeout('frameLooper()',70); /* change 70 for speed */
+  loopTimer = setTimeout('frameLooper()',70); /* velocidade 70 milisegun */
 
 }
 frameLooper();
