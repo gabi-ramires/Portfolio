@@ -2,13 +2,13 @@ var string = "Olá, me chamo Gabriela, tenho 25 anos e estudo programação. Gos
 var array = string.split("");
 var timer;
 
-function frameLooper () {
+function frameLooper() {
   if (array.length > 0) {
     document.getElementById("text").innerHTML += array.shift();
   } else {
     clearTimeout(timer);
-      }
-  loopTimer = setTimeout('frameLooper()',70); /* velocidade 70 milisegun */
+  }
+  loopTimer = setTimeout('frameLooper()', 70); /* velocidade 70 milisegun */
 
 }
 frameLooper();
