@@ -25,7 +25,7 @@ h1{
 
 .footer {
     text-align: center;
-    background: gray;
+    background: rgba(0, 0, 0, 0.329);
     color: white;
     position: fixed;
     width: 100%;
